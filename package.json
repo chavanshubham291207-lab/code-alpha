@@ -1,0 +1,28 @@
+{
+  "name": "codealpha-url-shortener",
+  "version": "1.0.0",
+  "description": "Backend URL Shortener project for CodeAlpha Internship Task 1",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "url-shortener",
+    "express",
+    "mongoose",
+    "nanoid",
+    "nodejs",
+    "codealpha"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nanoid": "^5.0.7"
+  }
+}
